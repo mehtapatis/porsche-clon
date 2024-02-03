@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+        integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.rtl.min.css"
+        integrity="sha512-SRg0d/3qeXy0utrb7F4+4jkFHhzdyvqjAd2i9ub0zWrPS80PoRaAtzmbMeVRYtApxoEcE6tcFZaHRY5UbwrTaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--navbar başlangıç-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="https://www.porsche.com.tr/img/menu-top-model/porsche-mobile-logo.png" alt="">
+            <a class="navbar-brand" href="#">PORSCHE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Araçlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fiyat Listesi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar bitiş-->
+
+    <!--karşılama alanı-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.porsche.com.tr/_temp/owjdEbRyIkwOWkPA9HgkQ_porsche-o-ruh-elektriklendi.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>O ruh elektriklendi</h5>
+                    <p>Taycan.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.porsche.com.tr/_temp/3840_1474_zAaAff8s6EDOiGW04GpQ_Porsche-Arac-Bulucu.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hızlı ve cesur</h5>
+                    <p>Panamera</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.porsche.com.tr/_temp/3840_1474_X24h28fG0qJd0E0kjAOtA_22CY24J5BOX0002_01_cmyk.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Modern, dinamik, şehirli</h5>
+                    <p>Macan T.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--karşılama alanı bitiş-->
+    <!--araç kartları-->
+    <div class="d-flex mt-3 justify-content-around ">
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/panamera.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">PANAMARA 4</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/Porsche-718-Cayman-S.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">718 CAYMAN</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/pa3-gts-modelimage-sideshot.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MACAN S</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+    </div>
+    <!--araç kartları-->
+    <div class="d-flex mt-3 justify-content-around ">
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/Porsche-718-Boxster.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">911</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/911-50-years.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">TAYCAN 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="https://www.porsche.com.tr/img/modellist/Porsche-Cayenne-Coupe.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">GAYENNE</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-dark">Daha fazla...</a>
+            </div>
+        </div>
+    </div>
+    <!--araç kartları bitiş-->
+    <!--iletişim-->
+    <hr>
+    <div class="mt-3">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Oluştur ve Bul
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Bize Ulaşın
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <li class="mt-3"><span>Biz Sizi Arayalım</span></li>
+                        <li class="mt-3"><span>Porsche Merkezleri</span></li>
+                        <li class="mt-3"><span>Porsche Görüntülü Konuşma Randevusu </span></li>
+                        <li class="mt-3"><span>Çerez Politikası</span></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <i class="bi bi-twitter-x "></i>
+            </div>
+            <div class="col">
+                <i class="bi bi-facebook "></i>
+            </div>
+            <div class="col">
+                <i class="bi bi-instagram "></i>
+            </div>
+            <div class="col">
+                <i class="bi bi-linkedin "></i>
+            </div>
+            <div class="col">
+                <i class="bi bi-youtube "></i>
+            </div>
+        </div>
+    </div>
+    <!--iletişim bitiş-->
+    
+    <!--form-->
+    <div class="mx-auto d-flex flex-column  align-center w-75 pt-4">
+        <div class="mt-3 ">
+            <label for="exampleFormControlInput1" class="form-label ">İletişim</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            <input type="password" class="form-control  " id="exampleFormControlInput1" placeholder="Şifrenizi Giriniz">
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Telefon Giriniz ">
+        </div>
+        <div class="mt-3 ">
+            <label for="exampleFormControlTextarea1" class="form-label">Konu</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn btn-dark mt-3">Gönder</button>
+    </div>
+
+    <!--form bitiş-->
+    <div class="text align-center bg-dark mt-5">
+<p class="text">
+    © 2022 Doğuş Otomotiv Porsche Türkiye.
+    <hr>
+    Kullanım Şartları ve Gizlilik/Kişisel Verilerin Korunması Politikası. Çerez Politikası 
+    
+    * Veriler yasaların gerektirdiği ölçüm yöntemleri ile tespit edilmiştir. 1 Eylül 2017 tarihinden itibaren yeni araçlar, yakıt tüketimi ve CO2 emisyonunun ölçümü için daha gerçekçi bir test prosedürü olan Dünya Çapında Uyumlu Hafif Araçlar Test Prosedürü (WLTP) doğrultusunda tip onayına tabi tutulmaktadır. 1 Eylül 2018 tarihinden itibaren WLTP, Yeni Avrupa Sürüş Döngüsü’nün (NEDC) yerini alacaktır. Test koşullarının daha gerçekçi olması sayesinde, WLTP’ye göre ölçülen yakıt tüketimi ve CO2 emisyonu değerleri birçok durumda NEDC değerlerinden daha yüksektir. Bu, 1 Eylül 2018 tarihinden itibaren araçların vergilendirilmesinde değişikliklere neden olabilir. WLTP ile NEDC arasındaki farklar hakkında daha fazla bilgi için www.porsche.com/wltp adresini ziyaret edin.
+    
+    Bugün, kullanılan test yöntemine bağlı olmaksızın, hala NEDC değerlerini belirtmekle yükümlüyüz. WLTP değerlerinin bildirilmesi, şimdilik isteğe bağlıdır. WLTP doğrultusunda tip onayından geçen yeni araçlar için NEDC değerleri, bu geçiş sürecinde WLTP değerlerinden türetilecektir. NEDC değerlerinin aralıklar şeklinde belirtilmesi ölçüsünde, bu değerler belirli bir araç ile ilişkilendirilemez ve bir teklif parçası oluşturmaz. Sunulan veriler, yalnızca farklı araç tiplerinin karşılaştırılmasını amaçlamaktadır. hava ve trafik koşulları, aynı zamanda sürücünün sürüş davranışlarına ek olarak ekstra özellikler ve aksesuarlar (eklentiler, lastik formatları, vb.), ağırlık, tekerlek dönme direnci ve aerodinamik özellikler gibi ilgili araç parametrelerini değiştirebilir ve yakıt tüketimi, elektrik tüketimi, CO2 emisyonu ve performans değerlerini etkileyebilir.
+    
+    Porsche araçlarda boya kalınlıkları 350μm’a kadar çıkabilmektedir.
+    
+    ** Tamamen elektrikli Porsche modelleri hakkında önemli bilgilere buradan erişebilirsiniz.
+    
+    a- Küresel anlamda yaşanan hammadde krizinden dolayı bazı modellerimizde zaman zaman tedarik sorunu yaşanabilmektedir, detaylı bilgi için Yetkili Satıcılarımıza başvurabilirsiniz.
+    b- Ürün gamımızdaki tüm modeller müşterilerin tercih ettiği opsiyonel ekipmanlarla getirilmekte olup, standart donanımlı araç sipariş edilmemektedir. Tercih edilen opsiyonel ekipmanlı modellerin fiyatları hakkında Yetkili Satıcılarımızdan bilgi alabilirsiniz.</p>
+    </div>
+    
+</body>
+
+</html>
